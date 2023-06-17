@@ -1,0 +1,338 @@
+.katalog_t{
+position: absolute;
+width: 221px;
+height: 160px;
+left: 849px;
+top: 157px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 80px;
+text-align: center;
+
+color: #000000;
+}
+
+.zad_sbora{
+position: absolute;
+width: 1920px;
+height: 66px;
+left: 0px;
+top: 273px;
+
+background: #D9D9D9;
+}
+
+.sbor{
+position: absolute;
+width: 271px;
+height: 46px;
+left: 825px;
+top: 286px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 46px;
+text-align: center;
+
+color: #000000;
+}
+
+
+body {
+    align-items: center;
+    background: #E3E3E3;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  $animationSpeed: 30s;
+  
+  // Animation
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 7))}
+  }
+  
+  
+  // Styling
+  .sliderS {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+    height: 300px;
+    margin: auto;
+    overflow:hidden;
+    position: absolute;
+    left: 300px;
+    top: 630px;
+    width: 1360px;
+    
+    
+    .slideS-track {
+      animation: scroll $animationSpeed linear infinite;
+      display: flex;
+      width: calc(250px * 14);
+    }
+    
+    .slideS {
+      height: 100px;
+      width: 250px;
+    }
+  }
+
+  .niz_sliderS{
+position: absolute;
+width: 1360px;
+height: 114px;
+left: 300px;
+top: 930px;
+
+background: #D9D9D9;
+  }
+
+.niz_sliderS_t{
+    position: absolute;
+width: 144px;
+height: 46px;
+left: 913px;
+top: 960px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 46px;
+text-align: center;
+
+color: #000000;
+}
+
+
+
+.zad_tul{
+    position: absolute;
+    width: 1920px;
+    height: 66px;
+    left: 0px;
+    top: 1476px;
+    
+    background: #D9D9D9;
+    }
+    
+    .tul{
+        position: absolute;
+        width: 171px;
+        height: 46px;
+        left: 874px;
+        top: 1497px;
+        
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+        
+        color: #000000;
+    }
+    
+    
+    body {
+        align-items: center;
+        background: #E3E3E3;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+      }
+      
+      $animationSpeed: 30s;
+      
+      // Animation
+      @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(calc(-250px * 7))}
+      }
+      
+      
+      // Styling
+      .sliderT {
+        background: white;
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+        height: 300px;
+        margin: auto;
+        overflow:hidden;
+        position: absolute;
+        left: 300px;
+        top: 1830px;
+        width: 1360px;
+        
+        
+        .slideT-track {
+          animation: scroll $animationSpeed linear infinite;
+          display: flex;
+          width: calc(250px * 14);
+        }
+      }
+    
+.niz_sliderT{
+    position: absolute;
+    width: 1360px;
+    height: 114px;
+    left: 300px;
+    top: 2130px;
+    
+    background: #D9D9D9;
+      }
+    
+.niz_sliderT_t{
+        position: absolute;
+    width: 144px;
+    height: 46px;
+    left: 913px;
+    top: 2160px;
+    
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+    }
+
+
+    .zad_Gip{
+        position: absolute;
+        width: 1920px;
+        height: 66px;
+        left: -23px;
+        top: 2747px;
+        
+        background: #D9D9D9;
+        }
+        
+        .Gip{
+            position: absolute;
+            width: 187px;
+            height: 46px;
+            left: 873px;
+            top: 2760px;
+            
+            font-family: 'PT Serif';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 35px;
+            line-height: 46px;
+            text-align: center;
+            
+            color: #000000;
+        }
+        
+        
+        body {
+            align-items: center;
+            background: #E3E3E3;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+          }
+          
+          $animationSpeed: 30s;
+          
+          // Animation
+          @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(calc(-250px * 7))}
+          }
+          
+          
+          // Styling
+          .sliderG {
+            background: white;
+            box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+            height: 300px;
+            margin: auto;
+            overflow:hidden;
+            position: absolute;
+            left: 300px;
+            top: 3130px;
+            width: 1360px;
+            
+            
+            .slideG-track {
+              animation: scroll $animationSpeed linear infinite;
+              display: flex;
+              width: calc(250px * 14);
+            }
+          }
+        
+    .niz_sliderG{
+        position: absolute;
+        width: 1360px;
+        height: 114px;
+        left: 300px;
+        top: 3430px;
+        
+        background: #D9D9D9;
+          }
+        
+    .niz_sliderG_t{
+            position: absolute;
+        width: 144px;
+        height: 46px;
+        left: 913px;
+        top: 3460px;
+        
+        font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+        
+        color: #000000;
+}
+
+.bottom_K{
+    position: absolute;
+    width: 1920px;
+    height: 295px;
+    left: 30px;
+    top: 3886px;
+    
+    background: #EDEDED;
+}
+
+.bottom_K_t{
+    position: absolute;
+    width: 205px;
+    height: 180px;
+    left: 80px;
+    top: 3942px;
+    text-align: left;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 66px;
+    
+    color: #000000;
+}
+
+.vk_bottom_K{
+    position: absolute;
+    left: 1751px;
+    top: 4069px;
+}
+
+.inst_bottom_K{
+    position: absolute;
+    left: 1647px;
+    top: 4069px;
+}

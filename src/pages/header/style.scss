@@ -1,0 +1,160 @@
+.header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 1800px;
+  height: 150px;
+  display: flex;
+  left: 54px;
+  top: 0px;
+  position: absolute;
+}
+
+.nas{
+  left: 337px;
+  top: 71px;
+  position: absolute;
+}
+
+.katalog{
+  left: 460px;
+  top: 71px;
+  position: absolute;
+  
+}
+.dost{
+  position: absolute;
+  left: 593px;
+  top: 71px;
+}
+.contact{
+  position: absolute;
+  left: 824px;
+  top: 71px;
+}
+
+.header_icons {
+position: absolute;
+left: 1717px;
+top: 63px;
+}
+
+.number {
+  position: absolute;
+  width: 137px;
+  height: 27px;
+  left: 1560px;
+  top: 71px;
+  
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+}
+
+.tekst_logo{
+  position: absolute;
+width: 86px;
+height: 33px;
+left: 54px;
+top: 45px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+color: #000000;
+}
+.header-mobile{
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .header {
+    display: none;
+  }
+  .header-mobile {
+    display: flex;
+    flex-direction: column;
+    &__menu {
+      padding-top: 40px;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-bottom: 10px;
+      display: flex;
+      > div:last-child {
+        margin-left: auto;
+        position: absolute;
+        left: 400px;
+        top: 11px;
+      }
+    }
+    .phone_m{
+      position: absolute;
+      left: 363px;
+      top: 11px;
+    }
+
+    .lupa{
+      position: absolute;
+      left: 379px;
+      top: 13px;
+    }
+    .logo_t{
+      position: absolute;
+      width: 63px;
+      height: 21px;
+      left: 18px;
+      top: 11px;
+
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 200;
+      font-size: 11px;
+      line-height: 13px;
+      text-align: center;
+
+      color: #000000;
+    }
+
+    &__block {
+      position: absolute;
+      max-height: 0px;
+      margin-top: 80px;
+      transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+    }
+    &__block-open {
+      max-height: 150px;
+      transition: max-height 0.3s cubic-bezier(1, 1, 1, 1);
+      height: 100vh;
+      left: 300px;
+      top: -33px;
+      > div {
+        padding-top: 10px;
+        padding-left: 24px;
+        a {
+          font-family: 'DM Sans';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 21px;
+          color: #161616;
+          text-decoration: none;
+          transition: 0.3s;
+          opacity: 0.8;
+        }
+        a:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}

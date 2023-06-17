@@ -1,0 +1,329 @@
+.zagolovok_contacts{
+position: absolute;
+width: 288px;
+height: 160px;
+left: 768px;
+top: 197px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 80px;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.sred_svyaz{
+position: absolute;
+width: 405px;
+height: 42px;
+left: 50px;
+top: 315px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 42px;
+
+color: #000000;
+
+}
+
+.phone_img{
+position: absolute;
+left: 50px;
+top: 429px;
+}
+
+.phone_tekst_img{
+position: absolute;
+width: 130px;
+height: 40px;
+left: 115px;
+top: 430px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.phone_tekst_img_1{
+    position: absolute;
+    width: 206px;
+    height: 40px;
+    left: 50px;
+    top: 500px;
+    
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    }
+
+.skype_img{
+position: absolute;
+left: 527px;
+top: 428px;
+}
+
+.skype_tekst_img{
+position: absolute;
+width: 79px;
+height: 40px;
+left: 588px;
+top: 429px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.skype_tekst_img_1{
+    position: absolute;
+    width: 96px;
+    height: 40px;
+    left: 562px;
+    top: 491px;
+    
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.poqta_img{
+position: absolute;
+left: 957px;
+top: 432px;
+}
+
+.poqta_tekst_img{
+position: absolute;
+width: 90px;
+height: 40px;
+left: 1022px;
+top: 432px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.poqta_tekst_img_1{
+position: absolute;
+width: 343px;
+height: 40px;
+left: 957px;
+top: 503px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.marker_img{
+position: absolute;
+left: 1464px;
+top: 431px;
+}
+
+.marker_tekst_img{
+position: absolute;
+width: 84px;
+height: 40px;
+left: 1546px;
+top: 432px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.marker_tekst_img_1{
+position: absolute;
+width: 370px;
+height: 40px;
+left: 1481px;
+top: 502px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.map_y{
+    position: absolute;
+    left: 507px;
+    top: 633px;
+}
+
+.forma_C{
+position: absolute;
+width: 1790px;
+height: 116px;
+left: 33px;
+top: 1094px;
+text-align: left;
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;
+
+color: #000000;
+}
+
+.form_С{
+    position: absolute;
+    left: 64px;
+    top: 1251px;
+
+    background: white;
+    border: 1px solid #dedede;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 30px 50px;
+    
+    border-bottom: 1px solid white;
+    color: #3d3d3d;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 64px;
+
+}
+
+.otziv{
+position: absolute;
+width: 224px;
+height: 80px;
+left: 816px;
+top: 1724px;
+
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 80px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.bottom_flow_img{
+position: absolute;
+left: 1031px;
+top: 1861px;
+}
+
+.vwrap, .vslide { 
+    width: 100%; 
+    height: 150px;
+    font-size: 20px;
+}
+ 
+.vwrap { overflow: hidden;  position: absolute; left: -300px; top: 2000px;}
+ 
+.vmove { position: relative; bottom: 0%; }
+@keyframes slidev {
+  0% { bottom: 0; } 30% { bottom: 0; }
+  33% { bottom: 100%; } 63% { bottom: 100%; }
+  66% { bottom: 200%; } 97% { bottom: 200%; }
+  100% { right: 0; }
+}
+ 
+.vmove { animation: slidev linear 15s infinite; }
+.vmove:hover { animation-play-state: paused; }
+
+.bottom_C{
+    position: absolute;
+width: 1920px;
+height: 295px;
+left: -1px;
+top: 2434px;
+
+background: #EDEDED;
+}
+
+.bottom_C_t{
+position: absolute;
+width: 205px;
+height: 180px;
+left: 77px;
+top: 2490px;
+text-align: left;
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 66px;
+
+color: #000000;
+}
+
+.vk_bottom_C{
+    position: absolute;
+    left: 1748px;
+    top: 2617px;
+}
+
+.inst_bottom_C{
+    position: absolute;
+    left: 1644px;
+    top: 2617px;
+}
