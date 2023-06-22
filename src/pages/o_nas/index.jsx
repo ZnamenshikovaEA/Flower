@@ -20,7 +20,7 @@ const AboutUs = () => {
     </div>
 
     <div class={'star'}>
-      <img src={'/o_nas1/star.svg'} />
+      <img className='star_image' src={'/o_nas1/star.svg'} />
       </div>
       <div class = "star_t1">
         <span>Надежность</span>
@@ -30,7 +30,7 @@ const AboutUs = () => {
         </div>
 
       <div class={'people'}>
-      <img src={'/o_nas1/people.svg'} />
+      <img className='people_image' src={'/o_nas1/people.svg'} />
       </div>
       <div class = "people_t1">
         <span>Команда</span>
@@ -40,7 +40,7 @@ const AboutUs = () => {
         </div>
 
       <div class={'galka'}>
-      <img src={'/o_nas1/galka.svg'} />
+      <img className='galka_image' src={'/o_nas1/galka.svg'} />
       </div>
       <div class = "galka_t1">
         <span>Возможности</span>
@@ -50,7 +50,7 @@ const AboutUs = () => {
         </div>
     
       <div class={'paket'}>
-      <img src={'/o_nas1/paket.svg'} />
+      <img className='paket_image' src={'/o_nas1/paket.svg'} />
       </div>
       <div class = "paket_t1">
         <span>Лояльные цены</span>
@@ -70,11 +70,11 @@ const AboutUs = () => {
         </div>
         <div class="vk_bottom_o_nas">
             <a href="https://vk.com/id263468538">
-            <img src={"/home1/vk.svg"}/>   
+            <img className='vk_bottom_o_nas_image' src={"/home1/vk.svg"}/>   
         </a>     
         </div>
         <div class="inst_bottom_o_nas">
-            <img src={"/home1/inst.svg"}/>   
+            <img className='inst_bottom_o_nas_image' src={"/home1/inst.svg"}/>   
         </div>
 
     </div>

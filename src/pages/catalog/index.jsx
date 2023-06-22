@@ -188,11 +188,11 @@ const Catalog = () => {
     </div>
     <div class="vk_bottom_K">
         <a href="https://vk.com/id263468538">
-        <img src={"/home1/vk.svg"}/>   
+        <img className="vk_bottom_K_m" src={"/home1/vk.svg"}/>   
         </a>     
     </div>
     <div class="inst_bottom_K">
-        <img src={"/home1/inst.svg"}/>   
+        <img className="inst_bottom_K_m" src={"/home1/inst.svg"}/>   
     </div>
 
     </div>

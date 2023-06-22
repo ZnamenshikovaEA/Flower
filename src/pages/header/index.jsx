@@ -36,9 +36,9 @@ export const HeaderPage = () => {
 
     <div className={'header-mobile'}>
         <div className={'header-mobile__menu'}>
-          <div class = "logo_t">
-            <span>La Rose</span>
-          </div>
+        <div class="tekst_logo">
+        <Link to={'/'}>La Rose</Link>
+        </div>
           <div class = 'phone_m'>
             <img src={'/header_mobile/phone.svg'} />
           </div>
@@ -57,13 +57,13 @@ export const HeaderPage = () => {
           {isOpen && (
             <>
               <div>
-                <Link to={'/m'}>О нас</Link>
+                <Link to={'/o_nas'}>О нас</Link>
               </div>
               <div>
-                <Link to={'/about'}>Каталог</Link>
+                <Link to={'/catalog'}>Каталог</Link>
               </div>
               <div>
-                <Link to={'/features'}>Доставка и оплата</Link>
+                <Link to={'/dostavka'}>Доставка и оплата</Link>
               </div>
               <div>
                 <Link to={'/contacts'}>Контакты</Link>

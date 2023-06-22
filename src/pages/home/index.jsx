@@ -6,12 +6,9 @@ const HomePage = () => {
 
   return (
     <div className='fon'>
-    <div class='zad'>
-        <img src='/home1/zad.svg'/>
-    </div>
-    <div class='zad_m'>
-        <img src='/home_mobile/zad.svg'/>
-    </div>
+      <div className='zad'>
+          <img className='zad_image' src='/home1/zad.svg'/>
+      </div>
     <div class="style">
       <span>Стильные букеты в Барнауле</span>
     </div>
@@ -22,32 +19,19 @@ const HomePage = () => {
     <Link to={'/catalog'}>Каталог</Link>
     </div>
     
-    <div class="vk">
+    <div className="vk">
         <a href="https://vk.com/id263468538">
-        <img src={"/home1/vk.svg"}/>   
+        <img className='vk_image' src={"/home1/vk.svg"}/>   
         </a>     
     </div>
     <div class="inst">
-        <img src={"/home1/inst.svg"}/>   
+        <img className='inst_image' src={"/home1/inst.svg"}/>   
     </div>
     <div class="fon_top">
-    </div>
-    <div class="vk_m">
-        <a href="https://vk.com/id263468538">
-        <img src={"/home_mobile/vk.svg"}/>   
-        </a>     
-    </div>
-    <div class="inst_m">
-        <img src={"/home_mobile/inst.svg"}/>   
-    </div>
-
-    <div class="fon_top">
-    </div>
-    <div class="fon_top_m">
     </div>
 
     <div class="flower">
-        <img src='/home1/flower.svg'/>
+        <img className='flower_image' src='/home1/flower.svg'/>
     </div>
     <div class="flower_tekst_1">
       <span>Всегда свежие цветы</span>
@@ -56,16 +40,9 @@ const HomePage = () => {
       <span>Опытные флористы тщательно собирают каждый цветок</span>
     </div>
 
-    <div class="flower_m">
-        <img src='/home_mobile/flower.svg'/>
-    </div>
-    <div class="flower_tekst_1_m">
-      <span>Всегда свежие цветы</span>
-    </div>
-
 
     <div class="car">
-        <img src='/home1/car.svg'/>
+        <img className='car_image' src='/home1/car.svg'/>
     </div>
     <div class="car_tekst_1">
       <span>Быстрая доставка</span>
@@ -73,29 +50,17 @@ const HomePage = () => {
     <div class="car_tekst_2">
       <span>Наши курьеры доставят букет в течение часа</span>
     </div>
-    <div class="car_m">
-        <img src='/home_mobile/car.svg'/>
-    </div>
-    <div class="car_tekst_1_m">
-      <span>Быстрая доставка</span>
-    </div>
 
 
 
     <div class="kart">
-        <img src='/home1/kart.svg'/>
+        <img className='kart_image' src='/home1/kart.svg'/>
     </div>
     <div class="kart_tekst_1">
       <span>Фото цветов</span>
     </div>
     <div class="kart_tekst_2">
       <span>Покажем как выглядит именно ваш букет перед доставкой</span>
-    </div>
-    <div class="kart_m">
-        <img src='/home_mobile/kart.svg'/>
-    </div>
-    <div class="kart_tekst_1_m">
-      <span>Фото цветов</span>
     </div>
 
 
@@ -106,7 +71,7 @@ const HomePage = () => {
     <div class="fon_mid">
     </div>
     <div class="img_mid">
-        <img src='/home1/mid_flow.svg'/>
+        <img  className="img_mid_m" src='/home1/mid_flow.svg'/>
     </div>
 
     <div class="dor">
@@ -122,7 +87,7 @@ const HomePage = () => {
     </div>
 
     <div class="flower_mid_1">
-        <img src='/home1/flower_k1.svg'/>
+        <img className="flower_mid_1_m" src='/home1/flower_k1.svg'/>
     </div>
     <div class = "r_f1">
     </div>
@@ -130,8 +95,10 @@ const HomePage = () => {
     <Link to={'/catalog'}>Каталог</Link>
     </div>
 
+
+
     <div class="flower_mid_2">
-        <img src='/home1/flower_k2.svg'/>
+        <img className="flower_mid_2_m" src='/home1/flower_k2.svg'/>
     </div>
     <div class = "r_f2">
     </div>
@@ -139,8 +106,10 @@ const HomePage = () => {
     <Link to={'/catalog'}>Каталог</Link>
     </div>
 
+
+
     <div class="flower_mid_3">
-        <img src='/home1/flower_k3.svg'/>
+        <img className="flower_mid_3_m" src='/home1/flower_k3.svg'/>
     </div>
     <div class = "r_f3">
     </div>
@@ -153,8 +122,9 @@ const HomePage = () => {
     </div>
 
     <div class="flower_right">
-        <img src='/home1/flower_right.svg'/>
+        <img className="flower_right_m" src='/home1/flower_right.svg'/>
     </div>
+
 
     <div class="tekst_down_1">
       <span>Оставте заявку на сайте или позвоните нам: 8 983 606 88 62</span>

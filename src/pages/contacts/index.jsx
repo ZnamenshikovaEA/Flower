@@ -16,7 +16,7 @@ const Contacts = () => {
         </div>
 
         <div className={'phone_img'}>
-            <img src={'/contacts1/phone.svg'} />
+            <img className={'phone_img_m'} src={'/contacts1/phone.svg'} />
         </div>
         <div class = 'phone_tekst_img'>
             <span>Телефон</span>
@@ -26,7 +26,7 @@ const Contacts = () => {
         </div>
 
         <div className={'skype_img'}>
-            <img src={'/contacts1/skype.svg'} />
+            <img className={'skype_img_m'} src={'/contacts1/skype.svg'} />
         </div>
         <div class = 'skype_tekst_img'>
             <span>Skype</span>
@@ -34,8 +34,9 @@ const Contacts = () => {
         <div class = 'skype_tekst_img_1'>
             <span>flowers</span>
         </div>
+
         <div className={'poqta_img'}>
-            <img src={'/contacts1/poqta.svg'} />
+            <img className={'poqta_img_m'} src={'/contacts1/poqta.svg'} />
         </div>
         <div class = 'poqta_tekst_img'>
             <span>E-mail</span>
@@ -43,8 +44,9 @@ const Contacts = () => {
         <div class = 'poqta_tekst_img_1'>
             <span>Katechka106@gmail.com</span>
         </div>
+
         <div className={'marker_img'}>
-            <img src={'/contacts1/marker.svg'} />
+            <img className={'marker_img_m'} src={'/contacts1/marker.svg'} />
         </div>
         <div class = 'marker_tekst_img'>
             <span>Адрес</span>
@@ -54,9 +56,12 @@ const Contacts = () => {
         </div>
 
         <YMaps>
+        <div className='ramkaC_m'>
+            <a class = "karta_C" href='https://yandex.ru/maps/197/barnaul/?from=api-maps&ll=83.677232%2C53.336547&origin=jsapi_2_1_79&z=17.25'>На карте</a>
           <div className='map_y' >
           <Map  width='900px' height='400px' defaultState={{ center: [53.331634, 83.682075], zoom: 17 }} />
           </div>
+        </div>
         </YMaps>
 
         <div class = 'forma_C'>
@@ -86,7 +91,7 @@ const Contacts = () => {
             <span>Отзывы</span>
         </div>
         <div className={'bottom_flow_img'}>
-            <img src={'/contacts1/bottom_flow.svg'} />
+            <img className={'bottom_flow_img_m'} src={'/contacts1/bottom_flow.svg'} />
         </div>
 
 
