@@ -1,546 +1,333 @@
-.zad {
-position: absolute;
-width: 1920px;
-height: 892px;
-left: 0px;
-top: 129px;
-}
-
 a{
     color: #000000;
     text-decoration: none
 }
 
-.style{
-position: absolute;
-width: 622px;
-height: 61px;
-left: 960px;
-top: 285px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 46px;
-line-height: 61px;
-/* identical to box height */
-
-
-color: #3A3A3A;
+.fon {
+    display: flex;
+    flex-direction: column;
+  &_zad {
+    display: flex;
+    img {
+        justify-content: left;
+    }
+    &_style{
+        
+        background-image: url("zad.svg");
+        display: flex;
+        height: 892px;
+        flex-shrink: 0;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 960px;
+        align-items: center;
+        &_tekst{
+            display: flex;
+            font-family: 'PT Serif';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 46px;
+            line-height: 61px;
+            color: #3A3A3A;
+        }
+        &_dostavim{
+            display: flex;
+            font-family: 'PT Serif';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            text-align: center;
+            color: #000000;
+            padding: 80px;
+        }
+        &_perexodkat{
+            display: flex;
+            box-sizing: border-box;
+            text-align: center;
+            justify-content: center;
+            color: #fff;
+            text-decoration: none;
+            background: #DCDCDD;
+            background-color: #DCDCDD;
+            border-radius: 35px;
+            border: 1px solid #DCDCDD;
+            font: bold 30px/70px Arial;
+            outline: none;
+        }
+        &_vkinst{
+        display: flex;
+        flex: 2 1;
+        align-items: center;
+        justify-content: space-evenly;
+        }
+    }
+}
 }
 
-.dostavim{
-    position: absolute;
-width: 492px;
-height: 64px;
-left: 1063px;
-top: 443px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 32px;
-text-align: center;
-
-color: #000000;
-}
-
-.per_kat {
-display: inline-block;
-width: 240px;
-height: 70px;
-left: 1183px;
-top: 543px;
-box-sizing: border-box;
-text-align: center;
-color: #fff;
-text-decoration: none;
-background: #DCDCDD;
-background-color: #DCDCDD;
-border-radius: 35px;
-border: 1px solid #DCDCDD;
-font: bold 30px/70px Arial;
-position: absolute;
-outline: none;
-}
-.per_kat:before {
-content: "";
-position: absolute;
-top: -10px;
-left: -10px;
-width: 100%;
-height: 100%;
-padding: 10px;
-background: #d7d7d7;
-z-index: -1;
-border-radius: 50px;
-box-shadow: inset 0 1px 2px #bbb;
-}
-
-/* Center Button */
-body {
-display: flex;
-min-height: 100vh;
-
-}
-.per_kat {
-margin: auto;
-}
-
-.vk{
-position: absolute;    
-left: 1201px;
-top: 880px;
-}
-
-
-.inst{
-position: absolute; 
-left: 1309px;
-top: 880px;
-}
-
-.fon_top{
-    position: absolute;
-    width: 1920px;
-    height: 238px;
-    left: 0px;
-    top: 1021px;
-    
-    background: #EDEDED;
-}
-
-.flower{
-position: absolute; 
-left: 90px;
-top: 1113px;
-}
-
-.car{
-    position: absolute; 
-    left: 715px;
-    top: 1106px;
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_img{
+        display: flex;
+        height: 238px;
+        background: #EDEDED;
+    }
+    &_img_flower{
+        display: flex;
+        flex: 2 1;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    &_img_top_car{
+        display: flex;
+        flex: 2 1;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    &_img_kart{
+        display: flex;
+        flex: 2 1;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    &_img_flower_tekst{
+        display: flex;
+        color: #000;
+        text-align: center;
+        font-size: 25px;
+        font-family: PT Serif;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
-.kart{
-    position: absolute; 
-    left: 1333px;
-    top: 1106px;
+    &_img_car_tekst{
+        display: flex;
+        color: #000;
+        text-align: center;
+        font-size: 25px;
+        font-family: PT Serif;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
-
-.flower_tekst_1{
-    position: absolute;
-    width: 244px;
-    height: 33px;
-    left: 201px;
-    top: 1083px;
-    text-align: left;
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 33px;
-    text-align: center;
-    
-    color: #000000;
+    &_img_kart_tekst{
+        display: flex;
+        color: #000;
+        text-align: center;
+        font-size: 25px;
+        font-family: PT Serif;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 }
-.flower_tekst_2{
-    position: absolute;
-    width: 366px;
-    height: 99px;
-    left: 201px;
-    top: 1139px;
-    text-align: left;
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 33px;
-    
-    color: #000000;
-}
-
-.car_tekst_1{
-    position: absolute;
-    width: 207px;
-    height: 33px;
-    left: 869px;
-    top: 1087px;
-    text-align: left;
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 33px;
-    
-    color: #000000;
-}
-
-.car_tekst_2{
-    position: absolute;
-    width: 350px;
-    height: 66px;
-    left: 869px;
-    top: 1139px;
-    
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 33px;
-    text-align: left;
-    color: #000000;
-}
-
-.kart_tekst_1{
-    position: absolute;
-    width: 146px;
-    height: 33px;
-    left: 1479px;
-    top: 1080px;
-    text-align: left;
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 33px;
-    
-    color: #000000;
-}
-
-.kart_tekst_2{
-position: absolute;
-width: 366px;
-height: 66px;
-left: 1479px;
-top: 1139px;
-text-align: left;
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 33px;
-
-color: #000000;
-}
-
 .unik{
-position: absolute;
-width: 777px;
-height: 80px;
-left: 504px;
-top: 1327px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 60px;
-line-height: 80px;
-/* identical to box height */
-
-
-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-around;
+    &_zad{
+        display: flex;
+        &_t{
+            display: flex;
+            font-family: 'PT Serif';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 80px;
+            color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            padding-top: 20px;
+        }
+}
 }
 
-.fon_mid{
-position: absolute;
-width: 1920px;
-height: 505px;
-left: 0px;
-top: 1563px;
+.tekstqvetok{
+    display: flex;
+    &_tek{
+        display: flex;
+        color: #000;
+        text-align: center;
+        font-size: 25px;
+        font-family: PT Serif;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background: #EDEDED;
+        &_flow{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
 
-background: #EDEDED;
+    }
 }
 
-.img_mid{
-    position: absolute;
-    left: 1336px;
-    top: 1421px;
-}
-
-.dor{
-    position: absolute;
-width: 1120px;
-height: 368px;
-left: 68px;
-top: 1641px;
-text-align: left;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 35px;
-line-height: 46px;
-
-color: #000000;
-}
 
 .popular{
-position: absolute;
-width: 565px;
-height: 80px;
-left: 670px;
-top: 2380px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 60px;
-line-height: 80px;
-/* identical to box height */
-
-
-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-around;
+    &_zad{
+        display: flex;
+        &_t{
+            display: flex;
+            font-family: 'PT Serif';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 80px;
+            color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            padding-top: 20px;
+        }
+}
 }
 
-.flower_mid_1{
-position: absolute;
-left: 87px;
-top: 2597px;
-}
-
-.r_f1{
-position: absolute;
-width: 472px;
-height: 70px;
-left: 87px;
-top: 3415px;
-
-background: #E3E2E3;
-}
-
-.flower_mid_2{
-position: absolute;
-left: 755px;
-top: 2605px;
-}
-
-.r_f2{
-    position: absolute;
-    width: 451px;
-    height: 70px;
-    left: 755px;
-    top: 3423px;
-    
-    background: #E3E2E3;
+.card_3{
+    display: flex;
+    flex: 2 1;
+    &_card{
+        display: flex;
+        flex: 2 1;
+        &_flower_mid_1{
+            display: flex;
+            flex: 3 1;
+            background: #E3E2E3;
+        }
+        &_flower_mid_2{
+            display: flex;
+            flex: 3 1;
+            background: #E3E2E3;
+        }
+        &_flower_mid_3{
+            display: flex;
+            flex: 2 1;
+            background: #E3E2E3;
+        }
     }
-
-.flower_mid_3{
-position: absolute;
-left: 1365px;
-top: 2605px;
 }
-
-.r_f3{
-    position: absolute;
-    width: 456px;
-    height: 70px;
-    left: 1365px;
-    top: 3423px;
-    
-    background: #E3E2E3;
+.buy{
+    display: flex;
+    flex: 2 1;
+    &_kat_f1{
+        display: flex;
+        color: #000;
+        font-size: 40px;
+        font-family: PT Serif;
+        flex-direction: column;
+        flex-shrink: 0;
+        background: #E3E2E3;
+        flex: 2 1;
     }
-
-.kat_f1{
-    position: absolute;
-width: 155px;
-height: 49px;
-left: 234px;
-top: 3423px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 53px;
-
-color: #000000;
+    &_kat_f2{
+        display: flex;
+        color: #000;
+        font-size: 40px;
+        font-family: PT Serif;
+        flex-direction: column;
+        flex-shrink: 0;
+        background: #E3E2E3;
+        flex: 2 1;
+    }
+    &_kat_f3{
+        display: flex;
+        color: #000;
+        font-size: 40px;
+        font-family: PT Serif;
+        flex-direction: column;
+        flex-shrink: 0;
+        background: #E3E2E3;
+        flex: 2 1;
+    }
 }
 
-.kat_f2{
-position: absolute;
-width: 156px;
-height: 49px;
-left: 884px;
-top: 3423px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 53px;
-
-color: #000000;
-}
-
-.kat_f3{
-position: absolute;
-width: 155px;
-height: 49px;
-left: 1529px;
-top: 3423px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 53px;
-
-color: #000000;
-}
 
 .dostav{
-position: absolute;
-width: 673px;
-height: 71px;
-left: 723px;
-top: 3744px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 60px;
-line-height: 80px;
-
-color: rgba(0, 0, 0, 0.8);
-}
-
-.flower_right{
-position: absolute;
-left: 87px;
-top: 4033px;
-}
-
-.tekst_down_1{
-position: absolute;
-width: 805px;
-height: 125px;
-left: 978px;
-top: 4087px;
-text-align: left;
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 66px;
-
-color: #000000;
-}
-
-.tekst_down_2{
-position: absolute;
-width: 897px;
-height: 124px;
-left: 978px;
-top: 4339px;
-text-align: left;
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 66px;
-
-color: #000000;
-}
-
-.tekst_down_3{
-position: absolute;
-width: 714px;
-height: 125px;
-left: 975px;
-top: 4583px;
-text-align: left;
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 66px;
-
-color: #000000;
-}
-
-
-.zakaz {
-    display: inline-block;
-    width: 240px;
-    height: 70px;
-    left: 1033px;
-    top: 4787px;
-    box-sizing: border-box;
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-    background: #DCDCDD;
-    background-color: #DCDCDD;
-    border-radius: 35px;
-    border: 1px solid #DCDCDD;
-    font: bold 30px/70px Arial;
-    position: absolute;
-    outline: none;
-    }
-    .per_kat:before {
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    background: #d7d7d7;
-    z-index: -1;
-    border-radius: 50px;
-    box-shadow: inset 0 1px 2px #bbb;
-    }
-    
-    /* Center Button */
-    body {
     display: flex;
-    min-height: 100vh;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    &_zad{
+        display: flex;
+        &_t{
+            display: flex;
+            font-family: 'PT Serif';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 80px;
+            color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            padding-top: 40px;
+        }
+}
+}
+
+
+.dostavkaoplata{
+    display: flex;
+
+    &_tekst_down_1{
+        display: flex;
+        width: 805px;
+        height: 125px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #000;
+        font-size: 50px;
+        line-height: 116px;
+        font-family: PT Serif;
     
+
+        &_zakaz{
+            display: flex;
+            box-sizing: border-box;
+            text-align: center;
+            justify-content: center;
+            color: #fff;
+            text-decoration: none;
+            background: #DCDCDD;
+            background-color: #DCDCDD;
+            border-radius: 35px;
+            border: 1px solid #DCDCDD;
+            font: bold 30px/70px Arial;
+            outline: none;
+        }
     }
-    .zakaz {
-    margin: auto;
+    &_flower_right{
+        display: flex;
+        flex: 3 1;
     }
+}
 
-    .nash_kon{
-    position: absolute;
-    width: 668px;
-    height: 62px;
-    left: 705px;
-    top: 5126px;
+.nash_kon{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    &_zad{
+        display: flex;
+        &_t{
+            display: flex;
+            font-family: 'PT Serif';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 80px;
+            color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            padding-top: 50px;
+        }
+}
+}
 
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 80px;
-    text-align: center;
-
-    color: rgba(0, 0, 0, 0.8);  
-    }
-
-    .me_open{
-        position: absolute;
+.top_bottoma{
+    display: flex;
+    &_me_open{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
         width: 660px;
         height: 110px;
-        left: 34px;
-        top: 5426px;
-        text-align: left;
-        font-family: 'PT Serif';
-        font-style: normal;
-        font-weight: 400;
+        color: #000;
         font-size: 32px;
-        line-height: 42px;
-        
-        color: #000000;
+        font-family: PT Serif;
     }
-
-    .form{
-        position: absolute;
-        left: 47px;
-        top: 5623px;
-
+    &_form{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -555,900 +342,550 @@ color: #000000;
         line-height: 64px;
     
     }
-
-    .rezhim{
-        position: absolute;
-width: 223px;
-height: 34px;
-left: 912px;
-top: 5426px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 42px;
-
-color: #000000;
-}
-
-.time{
-position: absolute;
-width: 212px;
-height: 110px;
-left: 912px;
-top: 5490px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 42px;
-white-space: pre;
-color: #000000;
-}
-
-.adress_t{
-    position: absolute;
-width: 94px;
-height: 37px;
-left: 912px;
-top: 5725px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 42px;
-
-color: #000000;
-}
-
-.adress{
-    position: absolute;
-width: 389px;
-height: 42px;
-left: 912px;
-top: 5790px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 42px;
-
-color: #000000;
-}
-
-.svyaz_s_nami{
-    position: absolute;
-width: 275px;
-height: 37px;
-left: 1467px;
-top: 5423px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 42px;
-
-color: #000000;
-}
-
-.svyaz_s_nami_number{
-    position: absolute;
-width: 237px;
-height: 25px;
-left: 1472px;
-top: 5493px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 42px;
-
-color: #000000;
-}
-
-.vk_svyaz{
-    position: absolute;
-    left: 1472px;
-    top: 5593px;
-}
-
-.inst_svyaz{
-    position: absolute;
-    left: 1555px;
-    top: 5593px;
-}
-
-.poqta_t{
-    position: absolute;
-width: 98px;
-height: 110px;
-left: 1467px;
-top: 5725px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 42px;
-
-color: #000000;
-}
-
-.poqta{
-    position: absolute;
-width: 364px;
-height: 37px;
-left: 1467px;
-top: 5781px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 42px;
-
-color: #000000;
-}
-
-.bottom{
-    position: absolute;
-width: 1920px;
-height: 295px;
-left: -1px;
-top: 6187px;
-
-background: #EDEDED;
-}
-
-.bottom_t{
-    position: absolute;
-width: 205px;
-height: 180px;
-left: 90px;
-top: 6243px;
-text-align: left;
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 27px;
-line-height: 66px;
-
-color: #000000;
-}
-
-.vk_bottom{
-    position: absolute;
-    left: 1761px;
-    top: 6370px;
-}
-
-.inst_bottom{
-    position: absolute;
-left: 1657px;
-top: 6370px;
 }
 
 
-
-
-
-@media (max-width: 935px) {
-.zad_image{
-position: absolute;
-width: 430px;
-height: 196px;
-left: 0px;
-top: -90px;
-
-}
-
-a{
-    color: #000000;
-    text-decoration: none
-}
-
-.style{
-    display: none;
-}
-
-.style{
-position: absolute;
-width: 441px;
-height: 31px;
-left: 70px;
-top: 65px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 100;
-font-size: 13px;
-line-height: 17px;
-
-color: #3A3A3A;
-}
-
-.dostavim{
-position: absolute;
-width: 262px;
-height: 33px;
-left: 155px;
-top: 85px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-text-align: center;
-
-color: #000000;
-}
-
-.per_kat {
-display: inline-block;
-width: 119px;
-height: 28px;
-left: 225px;
-top: 123px;
-box-sizing: border-box;
-text-align: center;
-color: #fff;
-text-decoration: none;
-background: #DCDCDD;
-background-color: #DCDCDD;
-border-radius: 35px;
-border: 1px solid #DCDCDD;
-font: bold 15px/28px Arial;
-position: absolute;
-outline: none;
-}
-.per_kat:before {
-content: "";
-position: absolute;
-top: -10px;
-left: -10px;
-width: 100%;
-height: 100%;
-padding: 10px;
-background: #d7d7d7;
-z-index: -1;
-border-radius: 50px;
-box-shadow: inset 0 1px 2px #bbb;
-}
-
-/* Center Button */
-body {
-display: flex;
-min-height: 100vh;
-
-}
-.per_kat {
-margin: auto;
-}
-
-
-.vk_image{
-position: absolute;
-width: 19px;
-height: 14.07px;
-left: -950px;
-top: -700px;
-}
-
-
-.inst_image{
-position: absolute;
-width: 19px;
-height: 19px;
-left: -1020px;
-top: -702px;
-}
-
-.fon_top{
-position: absolute;
-width: 427px;
-height: 170px;
-left: 0px;
-top: 230px;
-
-background: #EDEDED;
-}
-
-
-.flower_image{
-position: absolute;
-width: 27px;
-height: 27px;
-left: -55px;
-top: -817px;
-}
-
-
-.car_image{
-    position: absolute;
-    width: 27px;
-    height: 27px;
-    left: -552px;
-    top: -810px;
-    }
-
-.kart_image{
-    position: absolute;
-    width: 27px;
-    height: 27px;
-    left: -1030px;
-    top: -815px;
-    }
-
-.flower_tekst_2{
-    display: none;
-}
-.car_tekst_2{
-    display: none;
-}
-.kart_tekst_2{
-    display: none;
-}
-
-.flower_tekst_1{
-position: absolute;
-width: 83px;
-height: 20px;
-left: 41px;
-top: 283px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-text-align: center;
-
-color: #000000;
-}
-
-
-.car_tekst_1{
-position: absolute;
-width: 81px;
-height: 41px;
-left: 194px;
-top: 290px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-
-color: #000000;
-
-}
-
-
-.kart_tekst_1{
-position: absolute;
-width: 65px;
-height: 38px;
-left: 336px;
-top: 287px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-
-color: #000000;
-}
-
-
-.unik{
-position: absolute;
-width: 182px;
-height: 19px;
-left: 138px;
-top: 422px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height */
-
-
-color: rgba(0, 0, 0, 0.8);
-}
-
-.fon_mid{
-    display: none;
-}
-
-.fon_mid{
-position: absolute;
-width: 430px;
-height: 109px;
-left: 0px;
-top: 676px;
-
-background: #EDEDED;
-}
-
-
-.img_mid_m{
-position: absolute;
-width: 203px;
-height: 179px;
-left: -1208px;
-top: -962px;
-}
-
-.dor{
-position: absolute;
-width: 305px;
-height: 78px;
-left: 59px;
-top: 685px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-
-color: #000000;
-}
-
-.popular{
-position: absolute;
-width: 132px;
-height: 19px;
-left: 163px;
-top: 844px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height */
-
-
-color: rgba(0, 0, 0, 0.8);
-}
-
-.flower_mid_1_m{
-position: absolute;
-width: 198px;
-height: 197px;
-left: -73px;
-top: -1700px;
-}
-
-.r_f1{
-position: absolute;
-width: 114px;
-height: 18px;
-left: 56px;
-top: 1079px;
-
-background: #E3E2E3;
-}
-
-.flower_mid_2{
-    display: none;
-}
-
-.r_f2{
-    display: none;
-}
-
-.kat_f3{
-    display: none;
-}
-
-.flower_mid_3_m{
-position: absolute;
-width: 131px;
-height: 197px;
-left: -1103px;
-top: -1720px;
-}
-
-.r_f3{
-    position: absolute;
-    width: 110px;
-    height: 18px;
-    left: 272px;
-    top: 1079px;
-    
-    background: #E3E2E3;
-    }
-
-
-
-.kat_f1{
-position: absolute;
-width: 55px;
-height: 13px;
-left: 90px;
-top: 1079px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 13px;
-
-color: #000000;
-}
-
-.kat_f2{
-position: absolute;
-width: 39px;
-height: 13px;
-left: 302px;
-top: 1079px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 13px;
-z-index: 1;
-color: #000000;
-}
-
-
-.dostav{
-position: absolute;
-width: 673px;
-height: 50px;
-left: -110px;
-top: 1123px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-
-color: rgba(0, 0, 0, 0.8);
-}
-
-
-.flower_right_m{
-position: absolute;
-width: 117px;
-height: 212px;
-left: -41px;
-top: -2888px;
-
-}
-
-
-.tekst_down_1{
-position: absolute;
-width: 805px;
-height: 88px;
-left: 213px;
-top: 1188px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-
-color: #000000;
-}
-
-.tekst_down_2{
-position: absolute;
-width: 897px;
-height: 88px;
-left: 213px;
-top: 1234px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-
-color: #000000;
-}
-
-.tekst_down_3{
-position: absolute;
-width: 714px;
-height: 88px;
-left: 213px;
-top: 1286px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-
-color: #000000;
-}
-
-
-.zakaz {
-    display: inline-block;
-    width: 119px;
-    height: 28px;
-    left: 223px;
-    top: 1349px;
-    box-sizing: border-box;
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-    background: #DCDCDD;
-    background-color: #DCDCDD;
-    border-radius: 35px;
-    border: 1px solid #DCDCDD;
-    font: bold 15px/28px Arial;
-    position: absolute;
-    outline: none;
-    }
-    .zakaz:before {
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    background: #d7d7d7;
-    z-index: -1;
-    border-radius: 50px;
-    box-shadow: inset 0 1px 2px #bbb;
-    }
-    
-    /* Center Button */
-    body {
+.contakt{
     display: flex;
-    min-height: 100vh;
-    
-    }
-    .zakaz {
-    margin: auto;
-    }
-
-    .nash_kon{
-        display: none;
-    }
-
-.me_open{
-position: absolute;
-width: 297px;
-height: 66px;
-left: 78px;
-top: 1452px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-
-color: #000000;
-}
-
-    .form{
-        position: absolute;
-        left: 0px;
-        top: 1493.51px;
-
+    flex: 1;
+    &_adress_t_poqta{
         display: flex;
+        width: 212px;
+        height: 10px;
         flex-direction: column;
-        justify-content: space-around;
-        margin: 0 auto;
-        max-width: 500px;
-        padding: 30px 50px;
-        
-        color: #3d3d3d;
-        font-family: sans-serif;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 64px;
+        flex-shrink: 0;
+        color: #000;
+        font-size: 32px;
+        font-family: PT Serif;
+        flex: 1;
+}
+    &_rezhim{
+        display: flex;
+        width: 212px;
+        height: 110px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #000;
+        font-size: 32px;
+        font-family: PT Serif;
+        flex: 1;
+        }
     
-    }
 
-.rezhim{
-position: absolute;
-width: 91px;
-height: 15px;
-left: 46px;
-top: 1841px;
+    &_adress_t{
+        display: flex;
+        width: 212px;
+        height: 110px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #000;
+        font-size: 32px;
+        font-family: PT Serif;
+        flex: 1;
+        padding-bottom: 50px;
+        }
 
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-
-color: #000000;
+    &_svyaz_s_nami{
+        display: flex;
+        width: 212px;
+        height: 110px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #000;
+        font-size: 32px;
+        font-family: PT Serif;
+        flex: 1;
+        }
 }
 
-.time{
-position: absolute;
-width: 94px;
-height: 11px;
-left: 48px;
-top: 1882px;
 
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-
-color: #000000;
-}
-
-.adress_t{
-position: absolute;
-width: 64px;
-height: 26px;
-left: 261px;
-top: 1842px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-
-color: #000000;
-}
-
-.adress{
-position: absolute;
-width: 119px;
-height: 9px;
-left: 240px;
-top: 1878px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-
-color: #000000;
-}
-
-.svyaz_s_nami{
-position: absolute;
-width: 139px;
-height: 21px;
-left: 26px;
-top: 1994px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-
-color: #000000;
-}
-
-.svyaz_s_nami_number{
-position: absolute;
-width: 89px;
-height: 11px;
-left: 48px;
-top: 2036px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-
-color: #000000;
-}
-
-.vk_svyaz{
-    position: absolute;
-    width: 27px;
-    height: 29.7px;
-    left: 210px;
-    top: 2092px;
-}
-
-.inst_svyaz{
-    position: absolute;
-    width: 27px;
-    height: 27px;
-    left: 142px;
-    top: 2092px;
-}
-
-.poqta_t{
-position: absolute;
-width: 110px;
-height: 14px;
-left: 237px;
-top: 1994px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-
-color: #000000;
-}
-
-.poqta{
-position: absolute;
-width: 186px;
-height: 29px;
-left: 237px;
-top: 2033px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
-text-decoration-line: underline;
-
-color: #000000;
-}
 
 .bottom{
-position: absolute;
-width: 430px;
-height: 171px;
-top: 2233px;
-
-background: #EDEDED;
+    display: flex;
+    height: 295px;
+    flex-shrink: 0;
+    background: #E3E2E3;
+    &_t{
+        display: flex;
+        color: #000;
+        font-size: 27px;
+        font-family: PT Serif;
+        text-align: left;
+        line-height: 66px;
+        flex-direction: column;
+    }
+    &_vkinst{
+        display: flex;
+        flex: 2 1;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
 }
 
-.bottom_t{
-position: absolute;
-width: 205px;
-height: 180px;
-left: 20px;
-top: 2233px;
-text-align: left;
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 66px;
 
-color: #000000;
-}
 
-.vk_bottom{
-    position: absolute;
-    width: 30px;
-    height: 38.75px;
-    left: 337px;
-    top: 2333px;
-}
 
-.inst_bottom{
-position: absolute;
-width: 30px;
-height: 38.75px;
-left: 277px;
-top: 2333px;
-}
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    a{
+        color: #000000;
+        text-decoration: none
+    }
+    
+    .fon {
+        display: flex;
+        flex-direction: column;
+      &_zad {
+        display: flex;
+        img {
+            justify-content: left;
+        }
+        &_style{
+            
+            background-image: url("zad.svg");
+            display: flex;
+            height: 892px;
+            flex-shrink: 0;
+            justify-content: center;
+            flex-direction: column;
+            padding-left: 0px;
+            align-items: center;
+            &_tekst{
+                display: flex;
+                font-family: 'PT Serif';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 61px;
+                color: #3A3A3A;
+            }
+            &_dostavim{
+                display: flex;
+                font-family: 'PT Serif';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                text-align: center;
+                color: #000000;
+                padding: 80px;
+            }
+            &_perexodkat{
+                display: flex;
+                box-sizing: border-box;
+                text-align: center;
+                justify-content: center;
+                color: #fff;
+                text-decoration: none;
+                background: #DCDCDD;
+                background-color: #DCDCDD;
+                border-radius: 35px;
+                border: 1px solid #DCDCDD;
+                font: bold 30px/70px Arial;
+                outline: none;
+                font-size: 12px;
+            }
+            &_vkinst{
+            display: flex;
+            flex: 2 1;
+            align-items: center;
+            justify-content: space-evenly;
+            }
+        }
+    }
+    }
+    
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &_img{
+            display: flex;
+            height: 238px;
+            background: #EDEDED;
+            img{
+                width: 27px;
+                height: 27px;
+                flex-shrink: 0;
+            }
+        }
+        &_img_flower{
+            display: flex;
+            flex: 2 1;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        &_img_top_car{
+            display: flex;
+            flex: 2 1;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        &_img_kart{
+            display: flex;
+            flex: 2 1;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        &_img_flower_tekst{
+            display: flex;
+            color: #000;
+            text-align: center;
+            font-size: 13px;
+            font-family: PT Serif;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+    
+        &_img_car_tekst{
+            display: flex;
+            color: #000;
+            text-align: center;
+            font-size: 13px;
+            font-family: PT Serif;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        &_img_kart_tekst{
+            display: flex;
+            color: #000;
+            text-align: center;
+            font-size: 13px;
+            font-family: PT Serif;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+    }
+    .unik{
+        display: flex;
+        justify-content: space-around;
+        &_zad{
+            display: flex;
+            &_t{
+                display: flex;
+                font-family: 'PT Serif';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 80px;
+                color: rgba(0, 0, 0, 0.8);
+                justify-content: center;
+                padding-top: 20px;
+            }
+    }
+    }
+    
+    .tekstqvetok{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 203px;
+            height: 179px;
+            flex-shrink: 0;
+        }
+        &_tek{
+            display: flex;
+            color: #000;
+            text-align: center;
+            font-size: 12px;
+            font-family: PT Serif;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background: #EDEDED;
+            &_flow{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+            }
+    
+        }
+    }
+    
+    
+    .popular{
+        display: flex;
+        justify-content: space-around;
+        &_zad{
+            display: flex;
+            &_t{
+                display: flex;
+                font-family: 'PT Serif';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 80px;
+                color: rgba(0, 0, 0, 0.8);
+                justify-content: center;
+                padding-top: 20px;
+            }
+    }
+    }
+    
+    .card_3{
+        display: flex;
+        flex: 2 1;
+        img{
+            width: 134px;
+            height: 197px;
+            flex-shrink: 0;
+        }
+        &_card{
+            display: flex;
+            flex: 2 1;
+            &_flower_mid_1{
+                display: flex;
+                flex: 3 1;
+                background: #E3E2E3;
+            }
+            &_flower_mid_2{
+                display: flex;
+                flex: 3 1;
+                background: #E3E2E3;
+            }
+            &_flower_mid_3{
+                display: none;
+                flex: 2 1;
+                background: #E3E2E3;
+            }
+        }
+    }
+    .buy{
+        display: flex;
+        flex: 2 1;
+
+        &_kat_f1{
+            display: none;
+            color: #000;
+            font-size: 40px;
+            font-family: PT Serif;
+            flex-direction: column;
+            flex-shrink: 0;
+            background: #E3E2E3;
+            flex: 2 1;
+        }
+        &_kat_f2{
+            display: none;
+            color: #000;
+            font-size: 40px;
+            font-family: PT Serif;
+            flex-direction: column;
+            flex-shrink: 0;
+            background: #E3E2E3;
+            flex: 2 1;
+        }
+        &_kat_f3{
+            display: flex;
+            color: #000;
+            font-size: 40px;
+            font-family: PT Serif;
+            flex-direction: column;
+            flex-shrink: 0;
+            background: #E3E2E3;
+            flex: 2 1;
+        }
+    }
+    
+    
+    .dostav{
+        display: flex;
+        margin-bottom: 0px;
+        justify-content: space-around;
+        &_zad{
+            display: flex;
+            &_t{
+                display: flex;
+                font-family: 'PT Serif';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 80px;
+                color: rgba(0, 0, 0, 0.8);
+                justify-content: center;
+                padding-top: 40px;
+            }
+    }
+    }
+    
+    
+    .dostavkaoplata{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 117px;
+            height: 212px;
+            flex-shrink: 0;
+        }
+        &_tekst_down_1{
+            display: flex;
+            width: 280px;
+            height: 125px;
+            flex-direction: column;
+            flex-shrink: 0;
+            color: #000;
+            font-size: 13px;
+            line-height: 20px;
+            font-family: PT Serif;
+        
+    
+            &_zakaz{
+                display: flex;
+                box-sizing: border-box;
+                text-align: center;
+                justify-content: center;
+                color: #fff;
+                text-decoration: none;
+                background: #DCDCDD;
+                background-color: #DCDCDD;
+                border-radius: 35px;
+                border: 1px solid #DCDCDD;
+                font: bold 20px/30px Arial;
+                outline: none;
+            }
+        }
+        &_flower_right{
+            display: flex;
+            flex: 3 1;
+        }
+    }
+    
+    .nash_kon{
+        display: flex;
+        margin-bottom: 100px;
+        justify-content: space-around;
+        &_zad{
+            display: flex;
+            &_t{
+                display: flex;
+                font-family: 'PT Serif';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 80px;
+                color: rgba(0, 0, 0, 0.8);
+                justify-content: center;
+                padding-top: 50px;
+            }
+    }
+    }
+    
+    .top_bottoma{
+        display: flex;
+        flex-direction: column;
+        &_me_open{
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            width: 320px;
+            height: 70px;
+            color: #000;
+            font-size: 13px;
+            font-family: PT Serif;
+        }
+        &_form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 0 auto;
+            max-width: 500px;
+            padding: 30px 50px;
+    
+            color: #3d3d3d;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 40px;
+        
+        }
+    }
+    
+    
+    .contakt{
+        display: flex;
+        flex: 1;
+        &_adress_t_poqta{
+            display: flex;
+            width: 212px;
+            height: 10px;
+            flex-direction: column;
+            flex-shrink: 0;
+            color: #000;
+            font-size: 13px;
+            font-family: PT Serif;
+            flex: 1;
+    }
+        &_rezhim{
+            display: flex;
+            width: 212px;
+            height: 110px;
+            flex-direction: column;
+            flex-shrink: 0;
+            color: #000;
+            font-size: 13px;
+            font-family: PT Serif;
+            flex: 1;
+            }
+        
+    
+        &_adress_t{
+            display: flex;
+            width: 212px;
+            height: 110px;
+            flex-direction: column;
+            flex-shrink: 0;
+            color: #000;
+            font-size: 13px;
+            font-family: PT Serif;
+            flex: 1;
+            padding-bottom: 50px;
+            }
+    
+        &_svyaz_s_nami{
+            display: flex;
+            width: 212px;
+            height: 110px;
+            flex-direction: column;
+            flex-shrink: 0;
+            color: #000;
+            font-size: 13px;
+            font-family: PT Serif;
+            flex: 1;
+            }
+    }
+    
+    
+    
+    .bottom{
+        display: flex;
+        height: 295px;
+        flex-shrink: 0;
+        background: #E3E2E3;
+        &_t{
+            display: flex;
+            color: #000;
+            font-size: 27px;
+            font-family: PT Serif;
+            text-align: left;
+            line-height: 66px;
+            flex-direction: column;
+        }
+        &_vkinst{
+            display: flex;
+            flex: 2 1;
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
+    }
+
 
 }

@@ -1,233 +1,70 @@
-.zagolovok_contacts{
-position: absolute;
-width: 288px;
-height: 160px;
-left: 768px;
-top: 197px;
 
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 60px;
-line-height: 80px;
 
-color: rgba(0, 0, 0, 0.8);
-}
+.contacts_t{
+    display: flex;
+    justify-content: space-around;
+    &_zad{
+        display: flex;
+        &_t{
+            display: flex;
+            color: #030303;
+            text-align: center;
+            text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-size: 60px;
+            font-family: PT Serif;
+            font-weight: 200;
+            justify-content: center;
+            padding-top: 20px;
+        }
+  }
+  }
 
 .sred_svyaz{
-position: absolute;
-width: 405px;
-height: 42px;
-left: 50px;
-top: 315px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
+display: flex;
+color: #000;
 font-size: 32px;
-line-height: 42px;
-
-color: #000000;
+font-family: PT Serif;
+padding-top: 40px;
+justify-content: center;
 
 }
 
 .phone_img{
-position: absolute;
-left: 50px;
-top: 429px;
+display: flex;
+color: #000;
+font-size: 25px;
+font-family: PT Serif;
+padding-top: 50px;
+justify-content: space-between;
+    img{
+        display: flex;
+        width: 40px;
+        height: 40px;
+}
 }
 
-.phone_tekst_img{
-position: absolute;
-width: 130px;
-height: 40px;
-left: 115px;
-top: 430px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
-/* identical to box height */
 
 
-color: #000000;
 
-}
-
-.phone_tekst_img_1{
-    position: absolute;
-    width: 206px;
-    height: 40px;
-    left: 50px;
-    top: 500px;
-    
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    /* identical to box height */
-    
-    
-    color: #000000;
-    }
-
-.skype_img{
-position: absolute;
-left: 527px;
-top: 428px;
-}
-
-.skype_tekst_img{
-position: absolute;
-width: 79px;
-height: 40px;
-left: 588px;
-top: 429px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
-/* identical to box height */
-
-
-color: #000000;
-}
-
-.skype_tekst_img_1{
-    position: absolute;
-    width: 96px;
-    height: 40px;
-    left: 562px;
-    top: 491px;
-    
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    /* identical to box height */
-    
-    
-    color: #000000;
-}
-
-.poqta_img{
-position: absolute;
-left: 957px;
-top: 432px;
-}
-
-.poqta_tekst_img{
-position: absolute;
-width: 90px;
-height: 40px;
-left: 1022px;
-top: 432px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
-/* identical to box height */
-
-
-color: #000000;
-
-}
-
-.poqta_tekst_img_1{
-position: absolute;
-width: 343px;
-height: 40px;
-left: 957px;
-top: 503px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
-/* identical to box height */
-
-
-color: #000000;
-}
-
-.marker_img{
-position: absolute;
-left: 1464px;
-top: 431px;
-}
-
-.marker_tekst_img{
-position: absolute;
-width: 84px;
-height: 40px;
-left: 1546px;
-top: 432px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
-/* identical to box height */
-
-
-color: #000000;
-
-}
-
-.marker_tekst_img_1{
-position: absolute;
-width: 370px;
-height: 40px;
-left: 1481px;
-top: 502px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
-/* identical to box height */
-
-
-color: #000000;
-}
-
-.map_y{
-    position: absolute;
-    left: 507px;
-    top: 633px;
+.map_y_k{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .forma_C{
-position: absolute;
-width: 1790px;
-height: 116px;
-left: 33px;
-top: 1094px;
-text-align: left;
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
+display: flex;
+color: #000;
 font-size: 36px;
-line-height: 48px;
-
-color: #000000;
+font-family: PT Serif;
+text-align: left;
+padding-top: 50px;
+justify-content: center;
+align-items: center;
 }
 
 .form_С{
-    position: absolute;
-    left: 64px;
-    top: 1251px;
 
     display: flex;
     flex-direction: column;
@@ -241,32 +78,28 @@ color: #000000;
     font-size: 20px;
     font-weight: 600;
     line-height: 64px;
+    padding-top: 80px;
 
 }
 
-.otziv{
-position: absolute;
-width: 224px;
-height: 80px;
-left: 816px;
-top: 1724px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 60px;
-line-height: 80px;
-/* identical to box height */
-
-
-color: rgba(0, 0, 0, 0.8);
-}
-
-.bottom_flow_img{
-position: absolute;
-left: 1031px;
-top: 1861px;
-}
+.otziv_t{
+    display: flex;
+    justify-content: space-around;
+    &_zad{
+        display: flex;
+        &_t{
+            display: flex;
+            color: #030303;
+            text-align: center;
+            text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            font-size: 60px;
+            font-family: PT Serif;
+            font-weight: 200;
+            justify-content: center;
+            padding-top: 80px;
+        }
+  }
+  }
 
 .vwrap, .vslide { 
     width: 100%; 
@@ -274,7 +107,7 @@ top: 1861px;
     font-size: 20px;
 }
  
-.vwrap { overflow: hidden;  position: absolute; left: -300px; top: 2000px;}
+.vwrap { overflow: hidden;}
  
 .vmove { position: relative; bottom: 0%; }
 @keyframes slidev {
@@ -297,387 +130,158 @@ top: 2434px;
 background: #EDEDED;
 }
 
-.bottom_C_t{
-position: absolute;
-width: 205px;
-height: 180px;
-left: 77px;
-top: 2490px;
-text-align: left;
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 27px;
-line-height: 66px;
-
-color: #000000;
+.bottom_flow_img{
+    display: flex;
+    align-items: center;
 }
 
-.vk_bottom_C{
-    position: absolute;
-    left: 1748px;
-    top: 2617px;
-}
 
-.inst_bottom_C{
-    position: absolute;
-    left: 1644px;
-    top: 2617px;
-}
-.karta_C{
-    position: absolute;
-    left: -10000px;
-}
+
+
 
 
 
 
 @media (max-width: 935px) {
-.zagolovok_contacts{
-position: absolute;
-width: 74px;
-height: 23px;
-left: 167px;
-top: 37px;
 
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 17px;
 
-color: rgba(0, 0, 0, 0.8);
-}
-
-.sred_svyaz{
-position: absolute;
-width: 194px;
-height: 41px;
-left: 16px;
-top: 60px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 15px;
-
-color: #000000;
-
-}
-
-.phone_img_m{
-position: absolute;
-width: 17px;
-height: 16px;
-left: 9px;
-top: -333px;
-}
-
-.phone_tekst_img{
-position: absolute;
-width: 57px;
-height: 9px;
-left: 71px;
-top: 95px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 15px;
-
-color: #000000;
-
-}
-
-.phone_tekst_img_1{
-position: absolute;
-width: 83px;
-height: 8px;
-left: 58px;
-top: 119px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 15px;
-
-color: #000000;
-
-}
-
-.skype_img_m{
-position: absolute;
-width: 17px;
-height: 16px;
-left: -219px;
-top: -333px;
-}
-
-.skype_tekst_img{
-position: absolute;
-width: 42px;
-height: 26px;
-left: 319px;
-top: 95px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 15px;
-
-color: #000000;
-}
-
-.skype_tekst_img_1{
-position: absolute;
-width: 65px;
-height: 8px;
-left: 309px;
-top: 119px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 15px;
-
-color: #000000;
-}
-
-.poqta_img_m{
-position: absolute;
-width: 17px;
-height: 16px;
-left: -880px;
-top: -257px;
-}
-
-.poqta_tekst_img{
-position: absolute;
-width: 43px;
-height: 13px;
-left: 94px;
-top: 176px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 15px;
-
-color: #000000;
-
-}
-
-.poqta_tekst_img_1{
-position: absolute;
-width: 138px;
-height: 26px;
-left: 55px;
-top: 201px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 15px;
-
-color: #000000;
-
-}
-
-.marker_img_m{
-position: absolute;
-width: 17px;
-height: 16px;
-left: -1155px;
-top: -257px;
-}
-
-.marker_tekst_img{
-position: absolute;
-width: 44px;
-height: 21px;
-left: 319px;
-top: 178px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 15px;
-
-color: #000000;
-
-}
-
-.marker_tekst_img_1{
-position: absolute;
-width: 77px;
-height: 52px;
-left: 313px;
-top: 201px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 15px;
-
-color: #000000;
-}
-
-.map_y{
-display: none;
-}
-
-.ramkaC_m{
-box-sizing: border-box;
-
-position: absolute;
-width: 232px;
-height: 226px;
-left: 99px;
-top: 289px;
-
-background: #A39C61;
-border: 1px solid #000000;
-}
-
-.karta_C{
-position: absolute;
-width: 114px;
-height: 31px;
-left: 60px;
-top: 100px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 32px;
-
-color: #000000;
-}
-
-.forma_C{
-position: absolute;
-width: 363px;
-height: 82px;
-left: 29px;
-top: 609px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-
-color: #000000;
-}
-
-.form_С{
-    position: absolute;
-    left: -40px;
-    top: 672px;
-
+    .contacts_t{
+        display: flex;
+        justify-content: space-around;
+        &_zad{
+            display: flex;
+            &_t{
+                display: flex;
+                color: #030303;
+                text-align: center;
+                text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                font-size: 28px;
+                font-family: PT Serif;
+                font-weight: 200;
+                justify-content: center;
+                padding-top: 20px;
+            }
+      }
+      }
+    
+    .sred_svyaz{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 0 auto;
-    max-width: 500px;
-    padding: 30px 50px;
+    color: #000;
+    font-size: 14px;
+    font-family: PT Serif;
+    padding-top: 40px;
+    justify-content: center;
     
-    color: #3d3d3d;
-    font-family: sans-serif;
+    }
+    
+    .phone_img{
+    display: flex;
+    color: #000;
     font-size: 10px;
-    font-weight: 600;
-    line-height: 64px;
-
-}
-
-.otziv{
-    position: absolute;
-    width: 126px;
-    height: 15px;
-    left: 170px;
-    top: 961px;
+    font-family: PT Serif;
+    padding-top: 50px;
+    justify-content: space-between;
+        img{
+            display: flex;
+            width: 20px;
+            height: 20px;
+    }
+    }
     
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 17px;
     
-    color: rgba(0, 0, 0, 0.8);
-}
-
-.bottom_flow_img_m{
-position: absolute;
-width: 154px;
-height: 270px;
-left:-760px;
-top: -920px;
-}
-
-.vwrap, .vslide { 
-    width: 100%; 
-    height: 150px;
-    font-size: 13px;
-}
- 
-.vwrap { overflow: hidden;  position: absolute; left: 19px; top: 1016px;}
- 
-.vmove { position: relative; bottom: 0%; }
-@keyframes slidev {
-  0% { bottom: 0; } 30% { bottom: 0; }
-  33% { bottom: 100%; } 63% { bottom: 100%; }
-  66% { bottom: 200%; } 97% { bottom: 200%; }
-  100% { right: 0; }
-}
- 
-.vmove { animation: slidev linear 15s infinite; }
-.vmove:hover { animation-play-state: paused; }
-
-.bottom_C{
-position: absolute;
-width: 620px;
-height: 295px;
-left: -1px;
-top: 1334px;
-
-background: #EDEDED;
-}
-
-.bottom_C_t{
-position: absolute;
-width: 114px;
-height: 100px;
-left: 12px;
-top: 1374px;
-
-font-family: 'PT Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 70px;
-
-color: #000000;
-}
-
-.vk_bottom_C{
-    position: absolute;
-    left: 500px;
-    top: 1534px;
-}
-
-.inst_bottom_C{
-    position: absolute;
-    left: 430px;
-    top: 1534px;
-}
+    
+    
+    .map_y_k{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .forma_C{
+    display: flex;
+    color: #000;
+    font-size: 14px;
+    font-family: PT Serif;
+    text-align: left;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .form_С{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 auto;
+        max-width: 500px;
+        padding: 30px 50px;
+        
+        color: #3d3d3d;
+        font-family: sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 30px;
+        padding-top: 80px;
+    
+    }
+    
+    .otziv_t{
+        display: flex;
+        justify-content: space-around;
+        &_zad{
+            display: flex;
+            &_t{
+                display: flex;
+                color: #030303;
+                text-align: center;
+                text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                font-size: 28px;
+                font-family: PT Serif;
+                font-weight: 200;
+                justify-content: center;
+                padding-top: 80px;
+            }
+      }
+      }
+    
+    .vwrap, .vslide { 
+        width: 100%; 
+        height: 150px;
+        font-size: 20px;
+    }
+     
+    .vwrap { overflow: hidden;}
+     
+    .vmove { position: relative; bottom: 0%; }
+    @keyframes slidev {
+      0% { bottom: 0; } 30% { bottom: 0; }
+      33% { bottom: 100%; } 63% { bottom: 100%; }
+      66% { bottom: 200%; } 97% { bottom: 200%; }
+      100% { right: 0; }
+    }
+     
+    .vmove { animation: slidev linear 15s infinite; }
+    .vmove:hover { animation-play-state: paused; }
+    
+    .bottom_C{
+        position: absolute;
+    width: 1920px;
+    height: 295px;
+    left: -1px;
+    top: 2434px;
+    
+    background: #EDEDED;
+    }
+    
+    .bottom_flow_img{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 50px;
+        img{
+            display: none;
+        }
+    }
 }

@@ -7,14 +7,21 @@ const Catalog = () => {
 
   return (
     <div className='catalog_vnyt'>
-        <div class = 'katalog_t'>
-            <span>Каталог</span>
-        </div>
+      <div className="catalog_t">
+              <div className='catalog_t_zad'>
+                <div className='catalog_t_zad_t'>
+                  Каталог
+                </div>
+              </div>
+          </div>
 
-        <div class = 'zad_sbora'></div>
-        <div class = 'sbor'>
-            <span>Сборные букеты</span>
+      <div className="sbor_tekst">
+        <div className='sbor_tekst_zad'>
+          <div className='sbor_tekst_zad_t'>
+          Сборные букеты
+          </div>
         </div>
+    </div>
 
 <div class="sliderS">
   <div class="slideS-track">
@@ -62,16 +69,20 @@ const Catalog = () => {
     </div>
   </div>
 </div>
-        <div class = "niz_sliderS"></div>
-        <div class = 'niz_sliderS_t'>
+
+        <div class = "niz_sliderS">
         <Link to={'/contacts'}>Заказать</Link>
         </div>
 
 
-        <div class = 'zad_tul'></div>
-        <div class = 'tul'>
-            <span>Тюльпаны</span>
+
+        <div className="tulp_tekst">
+        <div className='tulp_tekst_zad'>
+          <div className='tulp_tekst_zad_t'>
+          Тюльпаны
+          </div>
         </div>
+    </div>
 
 <div class="sliderT">
   <div class="slideT-track">
@@ -119,16 +130,18 @@ const Catalog = () => {
     </div>
   </div>
 </div>
-        <div class = "niz_sliderT"></div>
-        <div class = 'niz_sliderT_t'>
+        <div class = "niz_sliderT">
         <Link to={'/contacts'}>Заказать</Link>
         </div>
 
 
-        <div class = 'zad_Gip'></div>
-        <div class = 'Gip'>
-            <span>Гипсофилы</span>
+        <div className="gip_tekst">
+        <div className='gip_tekst_zad'>
+          <div className='gip_tekst_zad_t'>
+          Гипсофилы
+          </div>
         </div>
+    </div>
 
 <div class="sliderG">
   <div class="slideG-track">
@@ -176,24 +189,23 @@ const Catalog = () => {
     </div>
   </div>
 </div>
-        <div class = "niz_sliderG"></div>
-        <div class = 'niz_sliderG_t'>
+        <div class = "niz_sliderG">
         <Link to={'/contacts'}>Заказать</Link>
         </div>
 
-        <div class = "bottom_K">
+        <div class = "bottom">
+    <div class = "bottom_t">
+        <span>Каталог</span>
+        <span>Контакты</span>
+        <span>Сотрудничество</span>
     </div>
-    <div class = "bottom_K_t">
-        <span>Каталог Контакты Сотрудничество</span>
-    </div>
-    <div class="vk_bottom_K">
+    <div class="bottom_vkinst">
         <a href="https://vk.com/id263468538">
-        <img className="vk_bottom_K_m" src={"/home1/vk.svg"}/>   
+        <img src={"/home1/vk.svg"}/>   
         </a>     
-    </div>
-    <div class="inst_bottom_K">
-        <img className="inst_bottom_K_m" src={"/home1/inst.svg"}/>   
-    </div>
+        <img src={"/home1/inst.svg"}/>
+    </div>   
+  </div>
 
     </div>
   )

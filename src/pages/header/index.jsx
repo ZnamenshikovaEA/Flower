@@ -10,28 +10,28 @@ export const HeaderPage = () => {
     <React.Fragment>
     <div className={'header'}>
       <div className={'header__menu'}>
-        <div className='nas'>
-          <Link to={'/o_nas'}>О нас</Link>
-        </div>
-        <div className='katalog'>
-          <Link to={'/catalog'}>Каталог</Link>
-        </div>
-        <div className='dost'>
-          <Link to={'/dostavka'}>Доставка и оплата</Link>
-        </div>
-        <div className='contact'>
-          <Link to={'/contacts'}>Контакты</Link>
-        </div>
-      </div>
-      <div className={'header_icons'}>
-      <img src={'/header1/phone.svg'} />
-      </div>
-      <div class="number">
-          <span>8 983 606 88 62</span>
-        </div>
-        <div class="tekst_logo">
+        <div>
         <Link to={'/'}>La Rose</Link>
         </div>
+        <div>
+          <Link to={'/o_nas'}>О нас</Link>
+        </div>
+        <div>
+          <Link to={'/catalog'}>Каталог</Link>
+        </div>
+        <div>
+          <Link to={'/dostavka'}>Доставка и оплата</Link>
+        </div>
+        <div>
+          <Link to={'/contacts'}>Контакты</Link>
+        </div>
+          <div>
+            <span>8 983 606 88 62</span>
+          </div>
+          <div>
+            <img src={'/header1/phone.svg'} />
+          </div>
+    </div>
     </div>
 
     <div className={'header-mobile'}>

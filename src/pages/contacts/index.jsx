@@ -8,60 +8,37 @@ const Contacts = () => {
 
   return (
     <div className='contacts_vnyt'>
-        <div class = 'zagolovok_contacts'>
-            <span>Контакты</span>
-        </div>
+      <div className="contacts_t">
+              <div className='contacts_t_zad'>
+                <div className='contacts_t_zad_t'>
+                  Контакты
+                </div>
+              </div>
+          </div>
         <div class = 'sred_svyaz'>
-            <span>Доступные средства связи:</span>
+            <span>Доступные средства связи</span>
         </div>
 
         <div className={'phone_img'}>
-            <img className={'phone_img_m'} src={'/contacts1/phone.svg'} />
-        </div>
-        <div class = 'phone_tekst_img'>
-            <span>Телефон</span>
-        </div>
-        <div class = 'phone_tekst_img_1'>
-            <span>8 983 606 88 62</span>
-        </div>
-
-        <div className={'skype_img'}>
-            <img className={'skype_img_m'} src={'/contacts1/skype.svg'} />
-        </div>
-        <div class = 'skype_tekst_img'>
-            <span>Skype</span>
-        </div>
-        <div class = 'skype_tekst_img_1'>
-            <span>flowers</span>
+            <img src={'/contacts1/phone.svg'} />
+            <span>Телефон:8 983 606 88 62</span>
+            <img src={'/contacts1/skype.svg'} />
+            <span>Skype: flowers</span>
+            <img src={'/contacts1/poqta.svg'} />
+            <span>E-mail: Katechka106@gmail.com</span>
+            <img src={'/contacts1/marker.svg'} />
+            <span>Адрес: г. Барнаул, ул. Лазурная 40</span>
         </div>
 
-        <div className={'poqta_img'}>
-            <img className={'poqta_img_m'} src={'/contacts1/poqta.svg'} />
-        </div>
-        <div class = 'poqta_tekst_img'>
-            <span>E-mail</span>
-        </div>
-        <div class = 'poqta_tekst_img_1'>
-            <span>Katechka106@gmail.com</span>
-        </div>
 
-        <div className={'marker_img'}>
-            <img className={'marker_img_m'} src={'/contacts1/marker.svg'} />
-        </div>
-        <div class = 'marker_tekst_img'>
-            <span>Адрес</span>
-        </div>
-        <div class = 'marker_tekst_img_1'>
-            <span>г. Барнаул, ул. Лазурная 40</span>
-        </div>
+
+
+
 
         <YMaps>
-        <div className='ramkaC_m'>
-            <a class = "karta_C" href='https://yandex.ru/maps/197/barnaul/?from=api-maps&ll=83.677232%2C53.336547&origin=jsapi_2_1_79&z=17.25'>На карте</a>
-          <div className='map_y' >
+          <div className='map_y_k' >
           <Map  width='900px' height='400px' defaultState={{ center: [53.331634, 83.682075], zoom: 17 }} />
           </div>
-        </div>
         </YMaps>
 
         <div class = 'forma_C'>
@@ -87,18 +64,19 @@ const Contacts = () => {
             </form>
         </div>
 
-        <div class = 'otziv'>
-            <span>Отзывы</span>
-        </div>
-        <div className={'bottom_flow_img'}>
-            <img className={'bottom_flow_img_m'} src={'/contacts1/bottom_flow.svg'} />
-        </div>
-
-
+        <div className="otziv_t">
+              <div className='otziv_t_zad'>
+                <div className='otziv_t_zad_t'>
+                  Отзывы
+                </div>
+              </div>
+          </div>
+<div className={'bottom_flow_img'}>
+            <img src={'/contacts1/bottom_flow.svg'} />
         <div class="vwrap"><div class="vmove">
   <div class="vslide">
     <h3>Юлия Сергеевна</h3>
-    <p>Красивый и свежий букет! Мне очень понравилось сочетание цветов и их аранжировка. Отличный подарок для любого случая. Спасибо!</p>
+    <p>Отличный подарок для любого случая. Спасибо!</p>
   </div>
   <div class="vslide">
     <h3>Екатерина Знаменщикова</h3>
@@ -107,23 +85,25 @@ const Contacts = () => {
   <div class="vslide">
     <h3>Алексей Плешков</h3>
     <p>Все прошло на высоте, сюрприз удался! Букет шикарный! Спасибо. Все пожелания учли, всегда на связи.</p>
-  </div>
-</div>
+    </div>
+    </div>
+    </div>
 </div>
 
-<div class = "bottom_C">
+
+<div class = "bottom">
+    <div class = "bottom_t">
+        <span>Каталог</span>
+        <span>Контакты</span>
+        <span>Сотрудничество</span>
     </div>
-    <div class = "bottom_C_t">
-        <span>Каталог Контакты Сотрудничество</span>
-    </div>
-    <div class="vk_bottom_C">
+    <div class="bottom_vkinst">
         <a href="https://vk.com/id263468538">
         <img src={"/home1/vk.svg"}/>   
         </a>     
-    </div>
-    <div class="inst_bottom_C">
-        <img src={"/home1/inst.svg"}/>   
-    </div>
+        <img src={"/home1/inst.svg"}/>
+    </div>   
+  </div>
     </div>
 
   )
